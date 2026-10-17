@@ -1,0 +1,115 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Cormorant Garamond', Georgia, serif;
+    --font-cinzel: 'Cinzel', serif;
+    --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    color: #1a1a1a;
+    background-color: #faf9f6;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, .font-serif-luxury {
+    font-family: var(--font-serif);
+  }
+
+  .font-brand {
+    font-family: var(--font-cinzel);
+  }
+}
+
+/* Custom luxury transitions & subtle effects */
+.bg-cream-canvas {
+  background-color: #faf9f6;
+}
+
+.bg-stone-surface {
+  background-color: #f3f0ea;
+}
+
+.bg-charcoal-luxury {
+  background-color: #161514;
+}
+
+.text-charcoal-luxury {
+  color: #161514;
+}
+
+.text-bronze-accent {
+  color: #9e8047;
+}
+
+.border-stone-subtle {
+  border-color: #e5e0d8;
+}
+
+.border-stone-dark {
+  border-color: #2e2c29;
+}
+
+/* Image zoom on hover */
+.img-editorial-zoom {
+  transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1), filter 0.8s ease;
+}
+
+.group:hover .img-editorial-zoom {
+  transform: scale(1.035);
+}
+
+/* Subtle fade in for lazy loaded images */
+img.lazy-loaded {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+img[loading="lazy"]:not(.lazy-loaded) {
+  opacity: 0.85;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #f1ede4;
+}
+::-webkit-scrollbar-thumb {
+  background: #c7c0b3;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #9e8047;
+}
+
+/* Desktop hover fallback for products dropdown */
+@media (min-width: 768px) {
+  .products-dropdown-container:hover .products-dropdown-menu {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
+  }
+  .products-dropdown-container:hover .dropdown-arrow {
+    transform: rotate(180deg);
+  }
+}
+
+/* Utility to hide scrollbar on horizontal scroll rows */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Clean touch response */
+button, a {
+  touch-action: manipulation;
+}

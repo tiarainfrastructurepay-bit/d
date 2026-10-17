@@ -1,0 +1,571 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LUSTUREBERG — Timeless by Design. Grandeur by Nature.</title>
+    <meta name="description" content="Discover signature tabletops and thoughtfully designed furniture where expressive natural stone, refined detailing, and contemporary elegance come together." />
+    <meta property="og:title" content="LUSTUREBERG — Timeless by Design. Grandeur by Nature." />
+    <meta property="og:description" content="Signature tabletops and thoughtfully designed furniture for spaces with character. Explore. Enquire. Create." />
+    <meta property="og:type" content="website" />
+
+    <!-- Google Fonts: Luxury High-Fashion Editorial Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              "cream-canvas": "#faf9f6",
+              "stone-surface": "#f3f0ea",
+              "charcoal-luxury": "#161514",
+              "stone-subtle": "#e5e0d8",
+              "bronze-accent": "#9e8047",
+            },
+            fontFamily: {
+              serif: ["\"Cormorant Garamond\"", "Georgia", "serif"],
+              brand: ["\"Cinzel\"", "serif"],
+              sans: ["\"Plus Jakarta Sans\"", "-apple-system", "BlinkMacSystemFont", "sans-serif"],
+            }
+          }
+        }
+      };
+    </script>
+  </head>
+  <body class="bg-cream-canvas text-stone-900 selection:bg-stone-800 selection:text-white">
+    <!-- Top Announcement Bar -->
+    <div class="bg-stone-900 text-stone-300 py-2 px-4 text-center text-[11px] sm:text-xs tracking-[0.2em] uppercase font-light border-b border-stone-800">
+      <span>Complimentary Architectural Consultation &amp; Bespoke Fabrication</span>
+    </div>
+
+    <!-- Luxury Header Navigation -->
+    <header class="sticky top-0 z-40 w-full transition-all duration-300 bg-cream-canvas/95 border-b border-stone-subtle/80 backdrop-blur-md">
+      <div class="max-w-7xl mx-auto px-3.5 sm:px-6 lg:px-8 h-16 sm:h-20 flex items-center justify-between gap-2 sm:gap-4">
+        <!-- Brand Wordmark -->
+        <a href="index.html" class="flex flex-col text-left group shrink-0">
+          <span class="font-brand text-base sm:text-xl lg:text-2xl tracking-[0.18em] sm:tracking-[0.28em] font-semibold text-stone-950 uppercase transition-opacity group-hover:opacity-80">
+            LUSTUREBERG
+          </span>
+          <span class="hidden sm:block text-[9px] sm:text-[10px] tracking-[0.22em] text-stone-500 uppercase font-light">
+            Timeless by Design. Grandeur by Nature.
+          </span>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <nav class="hidden md:flex items-center gap-7 lg:gap-10 text-xs uppercase tracking-[0.2em] font-medium text-stone-700">
+          <a href="index.html" class="text-stone-950 border-b border-stone-950 pb-0.5 font-semibold">Home</a>
+          
+          <!-- Products with Dropdown -->
+          <div class="relative py-2 products-dropdown-container">
+            <button
+              type="button"
+              class="products-dropdown-toggle flex items-center gap-1.5 hover:text-stone-950 transition-colors pb-0.5 border-b border-transparent hover:border-stone-400 focus:outline-none cursor-pointer"
+              aria-expanded="false"
+              aria-haspopup="true"
+            >
+              <span>Products</span>
+              <svg class="w-3.5 h-3.5 text-stone-500 transition-transform duration-200 dropdown-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M19 9l-7 7-7-7"></path>
+              </svg>
+            </button>
+            <div class="products-dropdown-menu absolute left-0 top-full pt-2 w-64 opacity-0 pointer-events-none -translate-y-1 transition-all duration-200 z-50">
+              <div class="bg-white/98 backdrop-blur-md border border-stone-200 shadow-2xl py-3 px-2">
+                <div class="px-3.5 py-1 text-[10px] uppercase tracking-[0.22em] text-stone-400 font-medium">
+                  Collections
+                </div>
+                <a href="products.html" class="block px-3.5 py-2 text-xs uppercase tracking-[0.16em] text-stone-900 font-medium hover:bg-stone-50 transition-colors">
+                  All Collections (37)
+                </a>
+                <div class="h-px bg-stone-100 my-1"></div>
+                <a href="coffee-table.html" class="block px-3.5 py-2 text-xs uppercase tracking-[0.16em] text-stone-700 hover:text-stone-950 hover:bg-stone-50 transition-colors">
+                  Center / Coffee Table (15)
+                </a>
+                <a href="wooden-almira.html" class="block px-3.5 py-2 text-xs uppercase tracking-[0.16em] text-stone-700 hover:text-stone-950 hover:bg-stone-50 transition-colors">
+                  Wooden Almira (12)
+                </a>
+                <a href="bench.html" class="block px-3.5 py-2 text-xs uppercase tracking-[0.16em] text-stone-700 hover:text-stone-950 hover:bg-stone-50 transition-colors">
+                  Bench (5)
+                </a>
+                <a href="mirrors.html" class="block px-3.5 py-2 text-xs uppercase tracking-[0.16em] text-stone-700 hover:text-stone-950 hover:bg-stone-50 transition-colors">
+                  Mirrors (5)
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <a href="about.html" class="hover:text-stone-950 transition-colors pb-0.5 border-b border-transparent hover:border-stone-400">About Us</a>
+          <a href="contact.html" class="hover:text-stone-950 transition-colors pb-0.5 border-b border-transparent hover:border-stone-400">Contact Us</a>
+        </nav>
+
+        <!-- Right Action Zone -->
+        <div class="flex items-center gap-2 sm:gap-3">
+          <button data-open-quote class="inline-flex items-center justify-center px-3 sm:px-5 py-2 sm:py-2.5 bg-stone-900 hover:bg-stone-800 text-stone-100 text-[10px] sm:text-xs uppercase tracking-[0.14em] sm:tracking-[0.18em] font-medium transition-all shrink-0 cursor-pointer">
+            <span class="sm:hidden">Enquire</span>
+            <span class="hidden sm:inline">Request A Quote</span>
+          </button>
+
+          <button id="mobile-menu-toggle" class="md:hidden p-2 text-stone-800 hover:text-stone-950 shrink-0 touch-manipulation focus:outline-none" aria-label="Open Navigation Menu">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Mobile Navigation Drawer -->
+    <div id="mobile-menu-backdrop" class="fixed inset-0 z-50 bg-stone-950/60 opacity-0 pointer-events-none transition-opacity duration-300"></div>
+    <div id="mobile-menu-drawer" class="fixed top-0 right-0 bottom-0 z-50 w-[85vw] max-w-xs bg-cream-canvas shadow-2xl transform translate-x-full transition-transform duration-300 flex flex-col justify-between p-5 sm:p-6 overflow-y-auto">
+      <div>
+        <div class="flex items-center justify-between pb-4 border-b border-stone-subtle">
+          <span class="font-brand text-base tracking-[0.2em] font-semibold text-stone-950">LUSTUREBERG</span>
+          <button id="mobile-menu-close" class="w-9 h-9 flex items-center justify-center text-stone-500 hover:text-stone-950 text-xl" aria-label="Close Menu">✕</button>
+        </div>
+        <nav class="flex flex-col gap-3 py-5 text-xs uppercase tracking-[0.18em] font-medium text-stone-800">
+          <a href="index.html" class="py-2 text-stone-950 font-semibold">Home</a>
+          
+          <div class="mobile-products-accordion border-y border-stone-200/70 py-1">
+            <button
+              type="button"
+              class="mobile-products-toggle w-full flex items-center justify-between py-2 text-stone-950 font-semibold focus:outline-none"
+              aria-expanded="true"
+            >
+              <span>Products</span>
+              <svg class="w-4 h-4 text-stone-600 transition-transform duration-200 mobile-dropdown-arrow rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M19 9l-7 7-7-7"></path>
+              </svg>
+            </button>
+            <div class="mobile-products-submenu pl-3 pt-1 pb-2 flex flex-col gap-2.5 border-l-2 border-stone-400 text-[11px] tracking-[0.16em] text-stone-700">
+              <a href="products.html" class="py-1 hover:text-stone-950 font-semibold">All Collections</a>
+              <a href="coffee-table.html" class="py-1 hover:text-stone-950">Center / Coffee Table (15)</a>
+              <a href="wooden-almira.html" class="py-1 hover:text-stone-950">Wooden Almira (12)</a>
+              <a href="bench.html" class="py-1 hover:text-stone-950">Bench (5)</a>
+              <a href="mirrors.html" class="py-1 hover:text-stone-950">Mirrors (5)</a>
+            </div>
+          </div>
+
+          <a href="about.html" class="py-2 hover:text-stone-950">About Us</a>
+          <a href="contact.html" class="py-2 hover:text-stone-950">Contact Us</a>
+        </nav>
+      </div>
+      <div class="pt-4 border-t border-stone-subtle">
+        <button data-open-quote class="w-full py-3 bg-stone-900 text-stone-100 text-xs uppercase tracking-[0.18em] font-medium text-center shadow-xs cursor-pointer">
+          Request A Quote
+        </button>
+      </div>
+    </div>
+
+    <!-- MAIN HERO SECTION with authentic LB CT 01 centerpiece -->
+    <section class="relative min-h-[70vh] sm:min-h-[80vh] lg:min-h-[90vh] flex items-center justify-center overflow-hidden bg-stone-950">
+      <img
+        src="Product Images/CENTER TABLE COFFEE TA/LB CT 01.png"
+        alt="LUSTUREBERG Luxury Signature Centerpiece"
+        class="absolute inset-0 w-full h-full object-cover object-center opacity-70 filter brightness-90"
+      />
+      <div class="absolute inset-0 bg-gradient-to-t from-stone-950/95 via-stone-950/60 to-stone-950/40"></div>
+
+      <!-- Hero Content -->
+      <div class="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 py-12 sm:py-20 lg:py-24 text-center text-white">
+        <p class="font-brand text-[11px] sm:text-xs tracking-[0.3em] sm:tracking-[0.35em] text-stone-300 uppercase mb-2 sm:mb-3">
+          LUSTUREBERG
+        </p>
+        <p class="text-[10px] sm:text-xs tracking-[0.22em] sm:tracking-[0.28em] text-stone-300 uppercase mb-4 sm:mb-6 font-light">
+          Timeless by Design. Grandeur by Nature.
+        </p>
+        <h1 class="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-serif font-normal tracking-tight text-white mb-4 sm:mb-6 leading-tight" style="text-wrap: balance;">
+          Where Natural Beauty Meets Distinctive Design.
+        </h1>
+        <p class="text-xs sm:text-sm md:text-base text-stone-200 font-light leading-relaxed max-w-2xl mx-auto mb-8 sm:mb-10">
+          Discover our 37 handcrafted signature tabletops and thoughtfully designed furniture, where expressive natural stone, fluted timber, and contemporary elegance come together. Every piece begins with an appreciation for materials and a vision to create something enduring.
+        </p>
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 max-w-md mx-auto sm:max-w-none">
+          <a href="products.html" class="w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-3.5 bg-white text-stone-950 hover:bg-stone-100 text-xs uppercase tracking-[0.18em] sm:tracking-[0.2em] font-medium transition-all duration-200 text-center">
+            Explore 37 Collections
+          </a>
+          <button data-open-quote class="w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-3.5 border border-white/70 text-white hover:bg-white/10 text-xs uppercase tracking-[0.18em] sm:tracking-[0.2em] font-medium transition-all duration-200 backdrop-blur-xs text-center cursor-pointer">
+            Request A Quote
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPLORE OUR COLLECTIONS: 4 Designated Categories with Authentic Product Images -->
+    <section class="py-12 sm:py-20 lg:py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-10 sm:mb-16">
+        <h2 class="text-xs uppercase tracking-[0.28em] text-stone-500 font-medium mb-3">Explore Our Collections</h2>
+        <h3 class="text-2xl sm:text-4xl font-serif text-stone-900 mb-4">Designed for Distinctive Spaces.</h3>
+        <div class="w-12 h-px bg-stone-300 mx-auto"></div>
+      </div>
+
+      <!-- 4 Categories Grid -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
+        
+        <!-- 1. CENTER / COFFEE TABLE (from Product Images/CENTER TABLE COFFEE TA) -->
+        <div class="group flex flex-col bg-stone-surface/40 border border-stone-subtle overflow-hidden">
+          <a href="coffee-table.html" class="relative w-full aspect-square bg-stone-100 overflow-hidden flex items-center justify-center p-3 block">
+            <img
+              src="Product Images/CENTER TABLE COFFEE TA/LB CT 01.png"
+              alt="Center / Coffee Table Collection"
+              loading="lazy"
+              class="max-w-full max-h-full w-auto h-auto object-contain img-editorial-zoom mx-auto drop-shadow-xs"
+            />
+          </a>
+          <div class="p-5 sm:p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <p class="text-[10px] uppercase tracking-[0.2em] text-stone-500 mb-1">15 Designs</p>
+              <h4 class="text-lg sm:text-xl font-serif text-stone-900 mb-2">Center / Coffee Table</h4>
+              <p class="text-xs text-stone-600 leading-relaxed font-light mb-5">
+                Patagonia quartzite, Nero Marquina, fluted Navona travertine, and crystalline onyx cocktail centerpieces.
+              </p>
+            </div>
+            <a href="coffee-table.html" class="inline-flex items-center text-xs uppercase tracking-[0.18em] font-medium text-stone-900 group-hover:text-stone-600 transition-colors">
+              Explore Tables (15) <span class="ml-1 transition-transform group-hover:translate-x-1">→</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- 2. WOODEN ALMIRA (from Product Images/Wooden Almira) -->
+        <div class="group flex flex-col bg-stone-surface/40 border border-stone-subtle overflow-hidden">
+          <a href="wooden-almira.html" class="relative w-full aspect-square bg-stone-100 overflow-hidden flex items-center justify-center p-3 block">
+            <img
+              src="Product Images/Wooden Almira/LB W AL-01.png"
+              alt="Wooden Almira Collection"
+              loading="lazy"
+              class="max-w-full max-h-full w-auto h-auto object-contain img-editorial-zoom mx-auto drop-shadow-xs"
+            />
+          </a>
+          <div class="p-5 sm:p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <p class="text-[10px] uppercase tracking-[0.2em] text-stone-500 mb-1">12 Designs</p>
+              <h4 class="text-lg sm:text-xl font-serif text-stone-900 mb-2">Wooden Almira</h4>
+              <p class="text-xs text-stone-600 leading-relaxed font-light mb-5">
+                Solid teak, oak, and walnut almirahs featuring vertical fluting, natural cane weave, and bespoke interior storage.
+              </p>
+            </div>
+            <a href="wooden-almira.html" class="inline-flex items-center text-xs uppercase tracking-[0.18em] font-medium text-stone-900 group-hover:text-stone-600 transition-colors">
+              Explore Almira (12) <span class="ml-1 transition-transform group-hover:translate-x-1">→</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- 3. BENCH (from Product Images/Bench) -->
+        <div class="group flex flex-col bg-stone-surface/40 border border-stone-subtle overflow-hidden">
+          <a href="bench.html" class="relative w-full aspect-square bg-stone-100 overflow-hidden flex items-center justify-center p-3 block">
+            <img
+              src="Product Images/Bench/LB W BN-01.png"
+              alt="Bench Collection"
+              loading="lazy"
+              class="max-w-full max-h-full w-auto h-auto object-contain img-editorial-zoom mx-auto drop-shadow-xs"
+            />
+          </a>
+          <div class="p-5 sm:p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <p class="text-[10px] uppercase tracking-[0.2em] text-stone-500 mb-1">5 Designs</p>
+              <h4 class="text-lg sm:text-xl font-serif text-stone-900 mb-2">Bench</h4>
+              <p class="text-xs text-stone-600 leading-relaxed font-light mb-5">
+                Fluted travertine plinths, Calacatta Viola slabs, and solid wire-brushed oak benches crowned in Italian bouclé.
+              </p>
+            </div>
+            <a href="bench.html" class="inline-flex items-center text-xs uppercase tracking-[0.18em] font-medium text-stone-900 group-hover:text-stone-600 transition-colors">
+              Explore Bench (5) <span class="ml-1 transition-transform group-hover:translate-x-1">→</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- 4. MIRRORS (from Product Images/Mirrors) -->
+        <div class="group flex flex-col bg-stone-surface/40 border border-stone-subtle overflow-hidden">
+          <a href="mirrors.html" class="relative w-full aspect-square bg-stone-100 overflow-hidden flex items-center justify-center p-3 block">
+            <img
+              src="Product Images/Mirrors/LB M01.png"
+              alt="Mirrors Collection"
+              loading="lazy"
+              class="max-w-full max-h-full w-auto h-auto object-contain img-editorial-zoom mx-auto drop-shadow-xs"
+            />
+          </a>
+          <div class="p-5 sm:p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <p class="text-[10px] uppercase tracking-[0.2em] text-stone-500 mb-1">5 Designs</p>
+              <h4 class="text-lg sm:text-xl font-serif text-stone-900 mb-2">Mirrors</h4>
+              <p class="text-xs text-stone-600 leading-relaxed font-light mb-5">
+                Molten sand-cast bronze frames, stone-anchored arched floor mirrors, and fluted travertine wall sculptures.
+              </p>
+            </div>
+            <a href="mirrors.html" class="inline-flex items-center text-xs uppercase tracking-[0.18em] font-medium text-stone-900 group-hover:text-stone-600 transition-colors">
+              Explore Mirrors (5) <span class="ml-1 transition-transform group-hover:translate-x-1">→</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="text-center mt-12">
+        <a href="products.html" class="inline-flex items-center px-8 py-3.5 bg-stone-900 text-stone-100 hover:bg-stone-800 text-xs uppercase tracking-[0.2em] font-medium transition-all">
+          Explore All 37 Pieces in Master Catalog
+        </a>
+      </div>
+    </section>
+
+    <!-- OUR SIGNATURE TABLETOPS -->
+    <section class="py-16 sm:py-24 bg-stone-900 text-stone-100 border-y border-stone-800">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+          <div class="max-w-xl">
+            <h2 class="text-xs uppercase tracking-[0.28em] text-stone-400 font-medium mb-3">Our Signature</h2>
+            <h3 class="text-2xl sm:text-4xl md:text-5xl font-serif text-white mb-5 leading-tight">
+              More Than a Tabletop. A Statement of Design.
+            </h3>
+            <p class="text-sm sm:text-base text-stone-300 font-serif italic mb-5">
+              Some pieces simply complete a space. Others define it.
+            </p>
+            <p class="text-xs sm:text-sm text-stone-300 font-light leading-relaxed mb-4">
+              At LUSTUREBERG, we believe a tabletop can be the defining element of a room—a statement of personal taste, material beauty, and considered design.
+            </p>
+            <p class="text-xs sm:text-sm text-stone-300 font-light leading-relaxed mb-4">
+              Our signature tabletop collection explores the natural character of marble, granite, onyx, and distinctive decorative detailing. From elegant silhouettes to refined metal-inlay designs, each piece offers an opportunity to bring individuality into a space.
+            </p>
+            <div class="flex flex-wrap gap-4 pt-4">
+              <a href="coffee-table.html" class="px-7 py-3 bg-white text-stone-950 hover:bg-stone-100 text-xs uppercase tracking-[0.2em] font-medium transition-all">
+                Discover 15 Table Designs
+              </a>
+              <button data-open-quote data-product="Signature Tabletop Collection" class="px-7 py-3 border border-stone-700 text-stone-300 hover:text-white hover:border-stone-500 text-xs uppercase tracking-[0.2em] font-medium transition-all cursor-pointer">
+                Request A Quote
+              </button>
+            </div>
+          </div>
+
+          <!-- Feature Image with Clickable Preview -->
+          <div class="relative bg-stone-800 border border-stone-800 overflow-hidden group cursor-pointer p-4 flex items-center justify-center aspect-square" data-view-product data-title="LB CT 01 | Signature Patagonia Quartzite & Onyx Table" data-category="Center / Coffee Table" data-img="Product Images/CENTER TABLE COFFEE TA/LB CT 01.png" data-material="Patagonia Quartzite, Translucent Onyx, Brushed Brass" data-dimensions="1200mm W × 1200mm D × 380mm H" data-finish="Diamond polished crystal face with chamfered edges" data-desc="Natural stone, expressive patterns, elegant shapes, and distinctive detailing. Explore tabletops designed to become the focal point of a space.">
+            <img
+              src="Product Images/CENTER TABLE COFFEE TA/LB CT 01.png"
+              alt="LUSTUREBERG Signature Tabletop LB CT 01"
+              loading="lazy"
+              class="max-h-full max-w-full w-auto h-auto object-contain img-editorial-zoom mx-auto drop-shadow-md"
+            />
+            <div class="absolute bottom-3 right-3 bg-stone-950/80 text-white text-[10px] uppercase tracking-widest px-2.5 py-1 backdrop-blur-xs opacity-0 group-hover:opacity-100 transition-opacity">
+              Click to inspect LB CT 01
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CURATED HIGHLIGHTS SHOWCASE (Using Authentic Product Images) -->
+    <section class="py-16 sm:py-24 bg-cream-canvas">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-2xl mx-auto mb-12 sm:mb-16">
+          <h2 class="text-xs uppercase tracking-[0.28em] text-stone-500 font-medium mb-3">Curated Highlights</h2>
+          <h3 class="text-2xl sm:text-4xl font-serif text-stone-900 mb-4">Spotlight on Exceptional Craftsmanship</h3>
+          <p class="text-xs sm:text-sm text-stone-600 font-light leading-relaxed">
+            A preview of handcrafted pieces drawn directly from our bespoke studio catalog.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
+          <!-- Item 1: LB CT 02 -->
+          <div class="bg-stone-surface/30 border border-stone-subtle overflow-hidden flex flex-col justify-between group">
+            <div class="aspect-square bg-stone-100 p-4 flex items-center justify-center cursor-pointer overflow-hidden" data-view-product data-title="LB CT 02 | Nero Marquina Low Table" data-category="Center / Coffee Table" data-img="Product Images/CENTER TABLE COFFEE TA/LB CT 02.png" data-material="Spanish Nero Marquina Marble" data-dimensions="1300mm W × 800mm D × 360mm H" data-finish="Silk honed low-luster surface" data-desc="Obsidian black marble with striking pure white lightning veining.">
+              <img src="Product Images/CENTER TABLE COFFEE TA/LB CT 02.png" alt="LB CT 02" class="max-h-full max-w-full w-auto h-auto object-contain img-editorial-zoom drop-shadow-xs" />
+            </div>
+            <div class="p-4">
+              <span class="text-[10px] uppercase tracking-wider text-stone-400 block">LB CT 02</span>
+              <h4 class="font-serif text-stone-950 text-base mb-2">Nero Marquina Low Table</h4>
+              <button data-open-quote data-product="LB CT 02 Nero Marquina Table" class="w-full py-2 bg-stone-900 text-stone-100 text-[11px] uppercase tracking-wider font-medium cursor-pointer">Enquire</button>
+            </div>
+          </div>
+
+          <!-- Item 2: LB W AL-02 -->
+          <div class="bg-stone-surface/30 border border-stone-subtle overflow-hidden flex flex-col justify-between group">
+            <div class="aspect-square bg-stone-100 p-4 flex items-center justify-center cursor-pointer overflow-hidden" data-view-product data-title="LB W AL-02 | Natural Cane & Oak Wardrobe" data-category="Wooden Almira" data-img="Product Images/Wooden Almira/LB W AL-02.png" data-material="White Oak & Natural Cane" data-dimensions="1200mm W × 620mm D × 2100mm H" data-finish="Zero-sheen organic lacquer" data-desc="Airy tactile cane weave inset into a solid white oak frame.">
+              <img src="Product Images/Wooden Almira/LB W AL-02.png" alt="LB W AL-02" class="max-h-full max-w-full w-auto h-auto object-contain img-editorial-zoom drop-shadow-xs" />
+            </div>
+            <div class="p-4">
+              <span class="text-[10px] uppercase tracking-wider text-stone-400 block">LB W AL-02</span>
+              <h4 class="font-serif text-stone-950 text-base mb-2">Natural Cane &amp; Oak Wardrobe</h4>
+              <button data-open-quote data-product="LB W AL-02 Cane & Oak Wardrobe" class="w-full py-2 bg-stone-900 text-stone-100 text-[11px] uppercase tracking-wider font-medium cursor-pointer">Enquire</button>
+            </div>
+          </div>
+
+          <!-- Item 3: LB W BN-02 -->
+          <div class="bg-stone-surface/30 border border-stone-subtle overflow-hidden flex flex-col justify-between group">
+            <div class="aspect-square bg-stone-100 p-4 flex items-center justify-center cursor-pointer overflow-hidden" data-view-product data-title="LB W BN-02 | Calacatta Viola Bench" data-category="Bench" data-img="Product Images/Bench/LB W BN-02.png" data-material="Calacatta Viola Marble, Ash Frame" data-dimensions="1800mm W × 500mm D × 450mm H" data-finish="Velvet honed stone finish" data-desc="Sculptural bench celebrating dramatic burgundy and violet veining.">
+              <img src="Product Images/Bench/LB W BN-02.png" alt="LB W BN-02" class="max-h-full max-w-full w-auto h-auto object-contain img-editorial-zoom drop-shadow-xs" />
+            </div>
+            <div class="p-4">
+              <span class="text-[10px] uppercase tracking-wider text-stone-400 block">LB W BN-02</span>
+              <h4 class="font-serif text-stone-950 text-base mb-2">Calacatta Viola Bench</h4>
+              <button data-open-quote data-product="LB W BN-02 Calacatta Viola Bench" class="w-full py-2 bg-stone-900 text-stone-100 text-[11px] uppercase tracking-wider font-medium cursor-pointer">Enquire</button>
+            </div>
+          </div>
+
+          <!-- Item 4: LB M02 -->
+          <div class="bg-stone-surface/30 border border-stone-subtle overflow-hidden flex flex-col justify-between group">
+            <div class="aspect-square bg-stone-100 p-4 flex items-center justify-center cursor-pointer overflow-hidden" data-view-product data-title="LB M02 | Verona Arched Standing Mirror" data-category="Mirrors" data-img="Product Images/Mirrors/LB M02.png" data-material="Roman Travertine Plinth, Brass Frame" data-dimensions="850mm W × 2000mm H × 80mm D" data-finish="Brushed brass & honed travertine" data-desc="Tall graceful arch with full-length proportions anchored into a heavy stone footing.">
+              <img src="Product Images/Mirrors/LB M02.png" alt="LB M02" class="max-h-full max-w-full w-auto h-auto object-contain img-editorial-zoom drop-shadow-xs" />
+            </div>
+            <div class="p-4">
+              <span class="text-[10px] uppercase tracking-wider text-stone-400 block">LB M02</span>
+              <h4 class="font-serif text-stone-950 text-base mb-2">Verona Arched Standing Mirror</h4>
+              <button data-open-quote data-product="LB M02 Verona Standing Mirror" class="w-full py-2 bg-stone-900 text-stone-100 text-[11px] uppercase tracking-wider font-medium cursor-pointer">Enquire</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CUSTOM DESIGN & MANUFACTURING (From PDF Page 8) -->
+    <section class="py-16 sm:py-24 bg-stone-surface border-y border-stone-subtle">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+          <div class="grid grid-cols-2 gap-3 sm:gap-4">
+            <div class="bg-stone-200 border border-stone-subtle overflow-hidden cursor-pointer p-2 flex items-center justify-center" data-view-product data-title="LB CT 03 | Fluted Navona Travertine Table" data-category="Center / Coffee Table" data-img="Product Images/CENTER TABLE COFFEE TA/LB CT 03.png" data-material="Roman Navona Travertine" data-dimensions="1100mm W × 1100mm D × 400mm H" data-finish="Honed Travertine" data-desc="Custom manufactured according to client specifications.">
+              <img src="Product Images/CENTER TABLE COFFEE TA/LB CT 03.png" alt="Custom Table Fabrication" loading="lazy" class="max-h-48 object-contain img-editorial-zoom" />
+            </div>
+            <div class="bg-stone-200 border border-stone-subtle overflow-hidden cursor-pointer p-2 flex items-center justify-center" data-view-product data-title="LB W AL-06 | Fluted Ribbed Timber Almira" data-category="Wooden Almira" data-img="Product Images/Wooden Almira/LB W AL-06.png" data-material="Smoked Ash & Brass" data-dimensions="1300mm W × 650mm D × 2150mm H" data-finish="Wire-brushed smoked ash" data-desc="Custom manufactured according to client drawings.">
+              <img src="Product Images/Wooden Almira/LB W AL-06.png" alt="Custom Almira Fabrication" loading="lazy" class="max-h-48 object-contain img-editorial-zoom" />
+            </div>
+          </div>
+
+          <div class="max-w-xl">
+            <h2 class="text-xs uppercase tracking-[0.28em] text-stone-500 font-medium mb-3">Custom Design &amp; Manufacturing</h2>
+            <h3 class="text-2xl sm:text-4xl font-serif text-stone-900 mb-5 leading-tight">
+              Your Vision. Your Dimensions. Your Design.
+            </h3>
+            <p class="text-sm font-serif italic text-stone-800 mb-4">
+              Not every space is the same. Not every vision fits a standard design.
+            </p>
+            <p class="text-xs sm:text-sm text-stone-600 font-light leading-relaxed mb-4">
+              LUSTUREBERG welcomes custom furniture and tabletop enquiries for customers, retailers, interior professionals, and project buyers seeking something more individual.
+            </p>
+            <p class="text-xs sm:text-sm text-stone-600 font-light leading-relaxed mb-8">
+              From selecting a stone and defining dimensions to exploring decorative metal inlays, edge profiles, and surface finishes, we work with your requirements to explore suitable design possibilities.
+            </p>
+            <a href="contact.html" class="px-8 py-3.5 bg-stone-900 text-stone-100 hover:bg-stone-800 text-xs uppercase tracking-[0.2em] font-medium transition-all inline-block">
+              Discuss Your Custom Design
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-stone-950 text-stone-300 border-t border-stone-800 pt-14 pb-10">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-2xl mx-auto mb-12">
+          <h4 class="font-brand text-2xl tracking-[0.3em] font-semibold text-white uppercase mb-2">LUSTUREBERG</h4>
+          <p class="text-[11px] tracking-[0.25em] text-stone-400 uppercase font-light mb-3">Timeless by Design. Grandeur by Nature.</p>
+          <p class="text-xs sm:text-sm font-serif italic text-stone-300 mb-3">Signature tabletops and thoughtfully designed furniture for spaces with character.</p>
+          <p class="text-xs tracking-[0.3em] uppercase text-stone-400 font-medium">Explore. Enquire. Create.</p>
+        </div>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-8 py-8 border-y border-stone-800/80 text-xs">
+          <div>
+            <h5 class="text-white uppercase tracking-[0.2em] font-medium mb-3">Categories</h5>
+            <ul class="space-y-2 text-stone-400 font-light">
+              <li><a href="coffee-table.html" class="hover:text-white">Center / Coffee Table (15)</a></li>
+              <li><a href="wooden-almira.html" class="hover:text-white">Wooden Almira (12)</a></li>
+              <li><a href="bench.html" class="hover:text-white">Bench (5)</a></li>
+              <li><a href="mirrors.html" class="hover:text-white">Mirrors (5)</a></li>
+            </ul>
+          </div>
+          <div>
+            <h5 class="text-white uppercase tracking-[0.2em] font-medium mb-3">Studio</h5>
+            <ul class="space-y-2 text-stone-400 font-light">
+              <li><a href="about.html" class="hover:text-white">Our Philosophy</a></li>
+              <li><a href="contact.html" class="hover:text-white">Custom Manufacturing</a></li>
+              <li><a href="about.html#forever" class="hover:text-white">Forever Value</a></li>
+            </ul>
+          </div>
+          <div>
+            <h5 class="text-white uppercase tracking-[0.2em] font-medium mb-3">Trade</h5>
+            <ul class="space-y-2 text-stone-400 font-light">
+              <li><a href="contact.html#trade" class="hover:text-white">Retailers &amp; Dealers</a></li>
+              <li><a href="contact.html#wholesale" class="hover:text-white">Wholesale Inquiries</a></li>
+            </ul>
+          </div>
+          <div>
+            <h5 class="text-white uppercase tracking-[0.2em] font-medium mb-3">Connect</h5>
+            <p class="text-stone-400 font-light leading-relaxed mb-2">Direct client concierge:</p>
+            <p class="text-stone-300 font-medium">inquiry@lustureberg.com</p>
+            <p class="text-stone-300 font-light mt-0.5">+91 98200 48900</p>
+          </div>
+        </div>
+        <div class="pt-6 text-center text-[11px] text-stone-500 font-light">© 2026 LUSTUREBERG. All rights reserved.</div>
+      </div>
+    </footer>
+
+    <!-- PRODUCT SPEC MODAL -->
+    <div id="product-spec-modal" class="fixed inset-0 z-50 bg-stone-950/80 backdrop-blur-sm hidden opacity-0 transition-opacity duration-300 flex items-center justify-center p-4">
+      <div class="modal-card bg-cream-canvas w-full max-w-4xl max-h-[90vh] overflow-y-auto border border-stone-subtle shadow-2xl p-6 sm:p-8 transform scale-95 transition-transform duration-300 relative">
+        <button data-close-product-modal class="absolute top-4 right-4 w-9 h-9 flex items-center justify-center text-stone-500 hover:text-stone-950 text-xl cursor-pointer">✕</button>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+          <div class="bg-stone-100 p-4 border border-stone-subtle flex items-center justify-center aspect-square">
+            <img id="modal-product-img" src="" alt="Product Detail" class="max-h-full max-w-full w-auto h-auto object-contain drop-shadow-sm" />
+          </div>
+          <div>
+            <span id="modal-product-category" class="text-[10px] uppercase tracking-[0.25em] text-stone-500 font-medium block mb-1">Category</span>
+            <h3 id="modal-product-title" class="text-2xl font-serif text-stone-950 mb-3">Product Name</h3>
+            <p id="modal-product-desc" class="text-xs sm:text-sm text-stone-600 font-light leading-relaxed mb-6">Description</p>
+            <div class="space-y-3 py-4 border-y border-stone-subtle text-xs mb-6">
+              <div><span class="text-stone-400 uppercase text-[10px] block">Materials</span><span id="modal-product-material" class="text-stone-900 font-medium">Materials</span></div>
+              <div><span class="text-stone-400 uppercase text-[10px] block">Standard Dimensions</span><span id="modal-product-dimensions" class="text-stone-900 font-medium">Dimensions</span></div>
+              <div><span class="text-stone-400 uppercase text-[10px] block">Finishing</span><span id="modal-product-finish" class="text-stone-900 font-medium">Finish</span></div>
+            </div>
+            <div class="flex gap-3">
+              <button id="modal-product-inquire-btn" data-open-quote class="flex-1 py-3 bg-stone-900 text-stone-100 hover:bg-stone-800 text-xs uppercase tracking-[0.18em] font-medium transition-all text-center cursor-pointer">Request Quote</button>
+              <button data-close-product-modal class="px-5 py-3 border border-stone-300 text-stone-700 hover:bg-stone-100 text-xs uppercase tracking-[0.18em] transition-all cursor-pointer">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- GLOBAL QUOTE MODAL -->
+    <div id="quote-modal" class="fixed inset-0 z-50 bg-stone-950/80 backdrop-blur-sm hidden opacity-0 transition-opacity duration-300 flex items-center justify-center p-4">
+      <div class="modal-card bg-cream-canvas w-full max-w-lg border border-stone-subtle shadow-2xl p-6 sm:p-8 transform scale-95 transition-transform duration-300 relative">
+        <button data-close-quote class="absolute top-4 right-4 w-9 h-9 flex items-center justify-center text-stone-500 hover:text-stone-950 text-xl cursor-pointer">✕</button>
+        <div class="mb-6">
+          <p class="font-brand text-xs tracking-[0.25em] text-stone-500 uppercase mb-1">LUSTUREBERG CONCIERGE</p>
+          <h3 class="text-2xl font-serif text-stone-900">Request A Specification &amp; Quote</h3>
+          <p class="text-xs text-stone-600 font-light mt-1">Our bespoke fabrication team will get back to you within 24 hours.</p>
+        </div>
+        <form id="quote-form" class="space-y-4">
+          <div>
+            <label class="block text-[11px] uppercase tracking-wider text-stone-600 mb-1" for="quote-topic">Subject / Product</label>
+            <input type="text" id="quote-topic" class="w-full px-3.5 py-2.5 bg-white border border-stone-300 text-xs text-stone-900 focus:outline-none focus:border-stone-800" value="Inquiry for LUSTUREBERG Collections" />
+          </div>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-[11px] uppercase tracking-wider text-stone-600 mb-1" for="quote-name">Full Name *</label>
+              <input type="text" id="quote-name" required class="w-full px-3.5 py-2.5 bg-white border border-stone-300 text-xs text-stone-900 focus:outline-none focus:border-stone-800" placeholder="e.g. Rahul Sharma" />
+            </div>
+            <div>
+              <label class="block text-[11px] uppercase tracking-wider text-stone-600 mb-1" for="quote-phone">Phone / WhatsApp *</label>
+              <input type="tel" id="quote-phone" required class="w-full px-3.5 py-2.5 bg-white border border-stone-300 text-xs text-stone-900 focus:outline-none focus:border-stone-800" placeholder="+91 98000 00000" />
+            </div>
+          </div>
+          <div>
+            <label class="block text-[11px] uppercase tracking-wider text-stone-600 mb-1" for="quote-email">Email Address *</label>
+            <input type="email" id="quote-email" required class="w-full px-3.5 py-2.5 bg-white border border-stone-300 text-xs text-stone-900 focus:outline-none focus:border-stone-800" placeholder="architect@studio.com" />
+          </div>
+          <div>
+            <label class="block text-[11px] uppercase tracking-wider text-stone-600 mb-1" for="quote-notes">Project Requirements / Custom Dimensions</label>
+            <textarea id="quote-notes" rows="3" class="w-full px-3.5 py-2.5 bg-white border border-stone-300 text-xs text-stone-900 focus:outline-none focus:border-stone-800 resize-none" placeholder="Provide dimensions, preferred materials, or delivery city..."></textarea>
+          </div>
+          <button type="submit" class="w-full py-3.5 bg-stone-900 text-stone-100 hover:bg-stone-800 text-xs uppercase tracking-[0.2em] font-medium transition-all cursor-pointer">Submit Request</button>
+        </form>
+        <div id="quote-success" class="hidden text-center py-8">
+          <div class="w-12 h-12 bg-stone-900 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-xl">✓</div>
+          <h4 class="text-xl font-serif text-stone-950 mb-2">Inquiry Received</h4>
+          <p class="text-xs text-stone-600 font-light max-w-xs mx-auto mb-4">Thank you. An architectural advisor will review your specifications and contact you shortly.</p>
+          <button data-close-quote class="px-6 py-2.5 bg-stone-200 hover:bg-stone-300 text-stone-900 text-xs uppercase tracking-wider font-medium cursor-pointer">Done</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>

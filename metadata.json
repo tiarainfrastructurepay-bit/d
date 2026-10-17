@@ -1,0 +1,8 @@
+{
+  "name": "Remix LUSTUREBERG - Timeless Furniture \u0026 Signature Tabletops",
+  "description": "Bespoke luxury furniture and signature natural stone tabletops. Timeless by Design. Grandeur by Nature.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
